@@ -20,3 +20,8 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += device/sony/castor_windy/include
+
+MR_DPI := hdpi
+MR_DPI_FONT := 240
+MR_DEVICE_VARIANTS := sgp521
+MR_INPUT_ROTATION := 90
